@@ -21,7 +21,7 @@ AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
 BinPackArguments: true
 BinPackParameters: true
-BreakBeforeBraces: GNU
+BreakBeforeBraces: Allman
 BreakBeforeTernaryOperators: false
 ColumnLimit: 80
 IndentWidth: 4
