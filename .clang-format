@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    42.clang-format                                    :+:      :+:    :+:    #
+#    .clang-format                                      :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bpuschel <bpuschel@student.42.us.org>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/05/10 08:40:34 by bpuschel          #+#    #+#              #
-#    Updated: 2017/05/10 09:30:25 by bpuschel         ###   ########.fr        #
+#    Updated: 2017/05/16 15:03:45 by bpuschel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,6 @@ PointerAlignment: Right
 PenaltyBreakBeforeFirstCallParameter: 1
 PenaltyBreakString: 1
 PenaltyExcessCharacter: 0
-ReflowComments: true
 SpaceAfterCStyleCast: true
 SpaceBeforeAssignmentOperators: true
 SpaceBeforeParens: ControlStatements
@@ -39,5 +38,5 @@ SpaceInEmptyParentheses: false
 SpacesInCStyleCastParentheses: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
-UseTab: Never
-
+TabWidth: 4
+UseTab: ForIndentation
